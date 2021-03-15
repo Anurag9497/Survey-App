@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="container text-center">
       <Router>
-        <Link to="/Survey-App" className="text-decoration-none">
+        <Link to="/" className="text-decoration-none">
           <h1 className="my-1 display-3 text-success" title="Click for Home">Survey App</h1>
         </Link>
         <Switch>
-          <Route exact path="/Survey-App">
+          <Route exact path="/">
             <Menu />
           </Route>
           <Route path="/create">

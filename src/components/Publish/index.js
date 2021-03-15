@@ -25,7 +25,7 @@ function Publish({sQuestion}) {
                 <h4 className="text-center my-3 text-danger">No questions are added</h4>
             }
             {sQuestion.length>0 ?
-                <button className="btn btn-primary btn-sm" onClick={() => history.push("/Survey-App")}>Confirm</button>
+                <button className="btn btn-primary btn-sm" onClick={() => history.push("/")}>Confirm</button>
             : null}
         </div>
     );
